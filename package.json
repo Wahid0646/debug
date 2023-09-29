@@ -1,0 +1,16 @@
+{
+    "name": "debug",
+    "version": "1.0.0",
+    "description": "Debug",
+    "main": "app.js",
+    "scripts": {
+      "start": "node --inspect=9229 app.js",
+      "start-dev": "nodemon --inspect=9229 app.js"
+    },
+    "author": "Abdul Wahid",
+    "license": "MIT",
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+  
